@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Rajdhani:wght@600&display=swap');
+
+.profile-page-root {
+ background-color: #eff7e1 !important;
+}
+
+/* Navbar styling */
+main {
+ margin: 16px;
+}
+
+.navbar {
+ display: flex;
+ align-items: center;
+ 
+ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+ box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+ color: white;
+ font-family: Helvetica;
+ font-weight: 300;
+ border: 3px yellow;
+ position: sticky;
+}
+
+.navbar__title {
+ margin-right: auto;
+ font-size: 150%;
+ padding: 12px 16px;
+}
+
+.navbar__item {
+ padding: 16px 16px;
+ cursor: pointer;
+ vertical-align: middle;
+ font-family: 'Potta One', cursive;
+}
+
+/* Profile Card Styling */
+.profile-card {
+ height: 128px;
+ width: 512px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 3rem auto !important;
+ background-color: #ff4e00;
+ background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+ border-radius: 10px;
+ color: #eff7e1;
+ font-family: 'Potta One', cursive;
+ margin-top: 1rem;
+}
+
+.profile-card span{
+ font-family: 'Rajdhani', sans-serif;
+ color: #1a508b;
+}
+
+.patient-main-section {
+ margin: 2rem;
+ display: flex;
+ flex-direction: row;
+ margin-left: 16rem;
+ margin-top: 10rem;
+ color: #000;
+}
+
+.asl, .appointment, .ar{
+ height: 250px;
+ width: 250px;
+ background-color: #6b0f1a;
+ background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+ border-radius: 40px;
+ margin-right: 2rem;
+}
+
+.asl button {
+ width: 50px;
+ padding: 1rem 5rem 1rem;
+ border-radius: 40px;
+ cursor: pointer;
+ background-color: #fff;
+ /* background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+ position: relative;
+ top: 90px;
+ left: 40px;
+}
+
+.asl button h1{
+ font-family: 'Potta One', cursive;
+ position: relative;
+ right: 25px;
+ color: #000;
+}
+
+.appointment button, .ar button{
+ width: 70px;
+ padding: 1rem 6rem 1rem;
+ border-radius: 40px;
+ cursor: pointer;
+ background-color: #fff;
+ /* background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+ position: relative;
+ top: 90px;
+ left: 27px;
+}
+
+.appointment button h3, .ar button h3{
+ font-family: 'Potta One', cursive;
+ position: relative;
+ right: 50px;
+ color: #000;
+}
+
+/* Chatbot styling */
