@@ -7,6 +7,7 @@ import './Landing.css'
 
 import doctor from '../../assets/doctor.png'
 import patient from '../../assets/patient.png'
+import EmergencyContact from '../../components/EmergencyContact'
 
 export default function Landing() {
   let history = useHistory();
@@ -35,7 +36,9 @@ export default function Landing() {
               <iframe width= "500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Pune&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" />
             </div>
             <Button style={{position: 'absolute', bottom: '130px', right: '170px' }} color="secondary" variant="outlined">GET NEARBY HOSPITALS & PHARMACIES</Button>
-            <Button style={{position: 'absolute', bottom: '130px', right: '0px' }} color="secondary" variant="outlined">EMERGENCY CALL</Button>
+            {/* <Button style={{position: 'absolute', bottom: '130px', right: '0px' }} color="secondary" variant="outlined">EMERGENCY CALL</Button> */}
+            <div style={{position: 'absolute', bottom: '130px', right: '0px' }}><EmergencyContact /></div>
+            
           </div>
         </div>
       </Container>
