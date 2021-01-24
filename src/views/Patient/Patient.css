@@ -113,3 +113,31 @@ main {
 }
 
 /* Chatbot styling */
+/* Chatbot Positioning */
+.chatbot {
+ position: absolute;
+ left: 0px;
+ bottom: 0px;
+}
+
+#augment {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 10rem auto 2rem;
+}
+
+#augment img {
+  width: 270px;
+  height: auto;
+  margin-left: 22rem;
+}
+
+#augment h1{
+ background-color: #6b0f1a;
+ background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+ color: #fff;
+ padding: 2rem;
+ margin-bottom: 2rem;
+ border-radius: 10px;
+}

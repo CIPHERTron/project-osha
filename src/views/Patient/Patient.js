@@ -6,6 +6,7 @@ import {Button, makeStyles} from '@material-ui/core'
 
 import fitness from '../../assets/fitness.png'
 import doctorqr from '../../assets/doctorqr.png'
+import query from '../../assets/query.png'
 import PatientForm from '../../components/PatientForm/PatientForm'
 
 import ChatBot from "react-simple-chatbot";
@@ -94,11 +95,18 @@ export default function Patient(props) {
         
       
       <div id="augment">
-      <div>
+      <h1>Scan the respective QR Codes to see AR of the model on your mobile</h1>
+      <div style={{display:'flex', flexDirection: 'column'}}>
+      <Button color="primary" variant="outlined">Fitness Model</Button>
       <img src={fitness} className="fitness" alt="Fitness Model QR" />
       </div>
-      <div>
+      <div style={{display:'flex', flexDirection: 'column'}}>
+      <Button color="primary" variant="outlined">Personal AR Assistant</Button>
       <img src={doctorqr} className="doctor" alt="Personal Assistant Model QR" />
+      </div>
+      <div style={{display:'flex', flexDirection: 'column'}}>
+      <Button color="primary" variant="outlined">Fitness Trainer</Button>
+      <img src={query} className="query" alt="Personal Assistant Model QR" />
       </div>
       </div>
 
