@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Potta+One&display=swap');
+
+.landing-root {
+ font-family: 'Raleway', sans-serif;
+ margin: 0;
+ padding: 0;
+ overflow-y: hidden !important;
+}
+
+/* Header styling */
+.header {
+ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+ box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+ color: #fff;
+ padding: 1.5%;
+}
+
+.header h1, h3{
+ text-align: center;
+}
+
+.header p {
+ padding-bottom: 0.5rem;
+}
+
+/* Main Section */
+.main {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+/* Map Styling */
+.map-root {
+ margin-right: 2.5rem;
+ position: absolute;
+  left: 170px;
+  bottom: -80px;
+}
+
+.landing-root .header span{
+  /* font-family: 'Bungee', cursive; */
+  font-family: 'Potta One', cursive;
+}
+
+.mapouter{position:relative;text-align:right;height:100%;width:100%;}
+.gmap_canvas {overflow:hidden;background:none!important;height:580px;widows: 752px;}
+
+/* Redirect Styling */
+.user-root {
+ background-color: #751622;
+ padding: 2.8rem 5rem;
+}
+
+.user-root img {
+ width: 20rem;
+ height: auto;
+ margin-top: 2rem;
+ border-radius: 0;
+}
+
+/* Doctor Section  */
+.doctor-root {
+ display: flex;
+ flex-direction: row;
+}
+
+/* Patient Section  */
+.patient-root {
+ display: flex;
+ flex-direction: row;
+}
+
+.btn {
+ box-sizing: border-box;
+ appearance: none;
+ background-color: transparent;
+ border: 2px solid yellow;
+ border-radius: 0.6em;
+ color: yellow;
+ cursor: pointer;
+ display: flex;
+ align-self: center;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: 1;
+ margin: 20px;
+ padding: 1.2em 2.8em;
+ text-decoration: none;
+ text-align: center;
+ text-transform: uppercase;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.third {
+ border-color: rgb(255, 255, 13);
+ color: #fff;
+ box-shadow: 0 0 40px 40px #751622 inset, 0 0 0 0 #751622;
+ transition: all 150ms ease-in-out;
+}
+
+.third:hover {
+ box-shadow: 0 0 10px 0 #A71D31 inset, 0 0 10px 4px #A71D31;
+}
+
