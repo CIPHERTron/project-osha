@@ -7,6 +7,7 @@ import {Button, makeStyles} from '@material-ui/core'
 import fitness from '../../assets/fitness.png'
 import doctorqr from '../../assets/doctorqr.png'
 import PatientForm from '../../components/PatientForm/PatientForm'
+import Camera from './Camera'
 
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from 'styled-components';
@@ -77,7 +78,7 @@ export default function Patient(props) {
 
       <div className="patient-main-section">
         <div className="asl">
-          <button><h1 style={{color: '#000'}}>ASL</h1></button>
+        <ScrollLink to='asl' smooth={true} offset={50} duration={2000}><button><h1 style={{color: '#000'}}>ASL</h1></button></ScrollLink>
         </div>
 
         <div className="appointment">
@@ -91,7 +92,11 @@ export default function Patient(props) {
         
       </div>
 
-        
+      <div id="asl" style={{transform:"translateX(25%) translateY(50%)"}} >
+          {/* <h2 align="center">ASL to Speech</h2> */}
+          <Camera></Camera>
+      </div>
+
       
       <div id="augment">
       <div>
