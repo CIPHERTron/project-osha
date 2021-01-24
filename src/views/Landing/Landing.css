@@ -7,8 +7,11 @@
  margin: 0;
  padding: 0;
  overflow-y: hidden !important;
+ background-color: #fff;
 }
-
+html{
+  background-color: #fff;
+}
 /* Header styling */
 .header {
  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
@@ -45,7 +48,7 @@
   font-family: 'Potta One', cursive;
 }
 
-.mapouter{position:relative;text-align:right;height:100%;width:100%; background-color: #fff;}
+.mapouter{position:relative;text-align:right;height:100%;width:100%;}
 .gmap_canvas {overflow:hidden;background:none!important;height:580px;widows: 752px;}
 
 /* Redirect Styling */
