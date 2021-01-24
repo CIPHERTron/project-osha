@@ -1,9 +1,10 @@
 import React from 'react'
+import Routes from './Routes'
 
 export default function App() {
  return(
-  <diV>
-   <p>welcome to project-osha</p>
-  </diV>
+  <div>
+  <Routes />
+  </div>
  )
 }
