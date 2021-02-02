@@ -15,17 +15,17 @@ Suffering from an ailment might cause lot of stress and affect one's mental heal
 
 We also have 3D fitness assistant and a doctor to assist you in your mental and physical well being, made using EchoAR. The fitness assistant will show you some workouts which will help you in staying fit.
 
-## How I built it
+## How we built it
 We built using React, echoAR, Node.js, firebase, Python, figma.
 
-## Challenges I ran into
+## Challenges we ran into
 We used echoAR for the first time and it was challenging to work with. We had issues implementing the Admin panel. It was difficult to train the ASL model as well.
 
 ## Accomplishments that we're proud of
 The application is up and running and we were able to bring out the thought from the prototype into the webpage.
 
-## What I learned
-We learned to use firebase authentication and storage, echoAR, and machine learning.
+## What we learned
+We learned to use firebase authentication and storage, building AR models using echoAR and machine learning.
 
 ## What's next for Project OSHA
 Implementing more features in the working prototype and admin panel. We would also wish to have a market survey to know what more features user would want to be incorporated in the webapp.
