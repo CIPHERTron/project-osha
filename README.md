@@ -25,7 +25,7 @@ We used echoAR for the first time and it was challenging to work with. We had is
 The application is up and running and we were able to bring out the thought from the prototype into the webpage.
 
 ## What we learned
-We learned to use firebase authentication and storage, building AR models using echoAR and machine learning.
+We learned to use Firebase Authentication, Cloud Firestore, Firebse Cloud Storage, building AR models using echoAR and machine learning.
 
 ## What's next for Project OSHA
 Implementing more features in the working prototype and admin panel. We would also wish to have a market survey to know what more features user would want to be incorporated in the webapp.
